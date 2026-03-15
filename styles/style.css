@@ -137,5 +137,34 @@
 }
 
 .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 115px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
+.footer__address {
+    max-width: 264.57px;
+    justify-self: start;
+}
+
+.footer__menu {
+    justify-self: center;
+}
+
+.footer__menu-list {
+    list-style: none;
+    text-align: center;
+}
+
+.footer__menu-link {
+    text-decoration: underline;
+}
+
+.footer__social-list {
+    display: flex;
+    gap: 48px;
+    justify-content: right;
+    list-style: none;
 }
