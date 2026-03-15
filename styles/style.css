@@ -1,1 +1,141 @@
-/* место для вашего кода */
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 30px;  
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__links-list-item {
+    list-style: circle;
+    text-decoration: underline;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+    height: 105px;
+}
+
+.address {
+    font-style: normal;
+}
+
+.header__address {
+    max-width: 240px;
+    justify-self: end;
+}
+
+.cover {
+
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.lots {
+    padding: 180px 24px;
+}
+
+.lots__heading {
+    padding-left: 40px;
+    padding-bottom: 27px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.lots__card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.lots__card-list-item {
+    width: 334px;
+    min-height: 596px;
+}
+
+.card-link {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding: 48px 40px;
+}
+
+.card_type_film {
+    background-image: url("../images/card-lot-01.jpg");
+}
+
+.card_type_book {
+    background-image: url("../images/card-lot-02.jpg");
+}
+
+.card_type_picture {
+    background-image: url("../images/card-lot-03.jpg");
+}
+
+.card__title,
+.card__text {
+    position: relative;
+    z-index: 2;
+}
+
+.card__title {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: white;
+}
+
+.card__text {
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+}
+
+.lots__look-more-link {
+    display: block;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+.about {
+
+}
+
+.footer {
+
+}
