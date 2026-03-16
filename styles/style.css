@@ -12,6 +12,10 @@
 .header__links-list {
     display: flex;
     gap: 30px;  
+    font-family: 'Raleway', 'Times New Roman', serif;
+    font-size: 18px;  
+    font-style: normal;
+
 }
 
 .header__links-list-item_no-bullit {
@@ -31,6 +35,8 @@
 
 .address {
     font-style: normal;
+    font-family: 'Raleway', 'Times New Roman', serif;
+    font-size: 18px;  
 }
 
 .header__address {
@@ -158,8 +164,9 @@
 .lots__heading {
     padding-left: 40px;
     padding-bottom: 27px;
-    font-size: 40px;
-    font-weight: bold;
+    font-family: 'Raleway', 'Times New Roman', serif;
+    font-size: 40px; 
+    font-style: bold;
     text-transform: uppercase;
 }
 
@@ -211,15 +218,18 @@
 }
 
 .card__title {
-    font-size: 22px;
-    font-weight: bold;
+    font-family: 'Raleway', 'Times New Roman', serif;
+    font-size: 22px; 
+    font-style: bold;
     text-transform: uppercase;
     text-decoration: underline;
     color: white;
 }
 
 .card__text {
+    font-family: 'Raleway', 'Times New Roman', serif;
     font-size: 20px;
+    font-style: normal;
     color: white;
     font-weight: normal;
 }
@@ -228,7 +238,9 @@
     display: block;
     margin-top: 30px;
     margin-left: 40px;
-    font-size: 20px;
+    font-style: normal;
+    font-family: 'Raleway', 'Times New Roman', serif;
+    font-size: 20px;  
     text-decoration: underline;
     text-transform: lowercase;
 }
@@ -303,6 +315,9 @@
 .footer__menu-list {
     list-style: none;
     text-align: center;
+    font-family: 'Raleway', 'Times New Roman', serif;
+    font-size: 18px;  
+    font-style: normal;
 }
 
 .footer__menu-link {
