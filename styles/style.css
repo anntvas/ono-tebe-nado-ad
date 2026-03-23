@@ -11,11 +11,10 @@
 
 .header__links-list {
     display: flex;
-    gap: 30px;  
+    gap: 30px;
     font-family: 'Raleway', 'Times New Roman', serif;
-    font-size: 18px;  
+    font-size: 18px;
     font-style: normal;
-
 }
 
 .header__links-list-item_no-bullit {
@@ -36,7 +35,7 @@
 .address {
     font-style: normal;
     font-family: 'Raleway', 'Times New Roman', serif;
-    font-size: 18px;  
+    font-size: 18px;
 }
 
 .header__address {
@@ -45,14 +44,14 @@
 }
 
 .cover {
-    position: relative;  
-    min-height: 100vh;   
+    position: relative;
+    min-height: 100vh;
     background-image: url('../images/cover.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 165px 50px 50px;  
-    color: #fff; 
+    padding: 165px 50px 50px;
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -60,9 +59,9 @@
 
 .overlay {
     position: absolute;
-    inset: 0;  
-    background-color: rgba(0, 0, 0, 0.6); 
-    z-index: 1;  
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
 }
 
 .cover__title,
@@ -73,7 +72,7 @@
 
 .cover__title {
     font-family: 'Raleway', 'Times New Roman', serif;
-    font-size: 100px;  
+    font-size: 100px;
     font-weight: 700;
     font-style: bold;
     line-height: 114.99999999999999%;
@@ -105,7 +104,7 @@
 
 .no-letter-spacing {
     letter-spacing: normal;
-    margin-right: -0.25em; 
+    margin-right: -0.25em;
 }
 
 .cover__description {
@@ -137,7 +136,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 0;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
 
 .bet-button:hover {
@@ -165,7 +164,7 @@
     padding-left: 40px;
     padding-bottom: 27px;
     font-family: 'Raleway', 'Times New Roman', serif;
-    font-size: 40px; 
+    font-size: 40px;
     font-style: bold;
     text-transform: uppercase;
 }
@@ -219,7 +218,7 @@
 
 .card__title {
     font-family: 'Raleway', 'Times New Roman', serif;
-    font-size: 22px; 
+    font-size: 22px;
     font-style: bold;
     text-transform: uppercase;
     text-decoration: underline;
@@ -240,7 +239,7 @@
     margin-left: 40px;
     font-style: normal;
     font-family: 'Raleway', 'Times New Roman', serif;
-    font-size: 20px;  
+    font-size: 20px;
     text-decoration: underline;
     text-transform: lowercase;
 }
@@ -276,7 +275,7 @@
     margin: 101px 0 100px;
     font-family: 'Raleway', 'Times New Roman', serif;
     font-weight: 700;
-    font-size: 40px;  
+    font-size: 40px;
     text-transform: uppercase;
 }
 
@@ -316,7 +315,7 @@
     list-style: none;
     text-align: center;
     font-family: 'Raleway', 'Times New Roman', serif;
-    font-size: 18px;  
+    font-size: 18px;
     font-style: normal;
 }
 
